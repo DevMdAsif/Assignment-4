@@ -639,6 +639,14 @@ video {
   height: 100%;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[35vh\] {
+  height: 35vh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -800,6 +808,46 @@ video {
 
 .pt-\[5\%\] {
   padding-top: 5%;
+}
+
+.pt-36 {
+  padding-top: 9rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[10\] {
+  padding-top: 10;
+}
+
+.pt-\[10\%\] {
+  padding-top: 10%;
+}
+
+.pt-\[7\%\] {
+  padding-top: 7%;
+}
+
+.pt-\[\%\] {
+  padding-top: %;
+}
+
+.pt-\[9\%\] {
+  padding-top: 9%;
+}
+
+.pt-\[8\%\] {
+  padding-top: 8%;
 }
 
 .text-center {
