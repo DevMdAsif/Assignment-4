@@ -763,6 +763,30 @@ video {
   height: 100%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[80\%\] {
+  height: 80%;
+}
+
+.h-\[70\%\] {
+  height: 70%;
+}
+
+.h-\[50\%\] {
+  height: 50%;
+}
+
+.h-\[40\%\] {
+  height: 40%;
+}
+
+.h-\[40vh\] {
+  height: 40vh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1042,6 +1066,10 @@ video {
 
 .pl-\[15\%\] {
   padding-left: 15%;
+}
+
+.pt-\[7\%\] {
+  padding-top: 7%;
 }
 
 .text-center {
