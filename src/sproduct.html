@@ -34,20 +34,20 @@
         <section class="grid grid-cols-2 pt-[10%] w-full h-full">
             <div class="w-[80%] ml-[15%]">
                 <div>
-                    <img class="" src="img/products/f1.jpg" alt="">
+                    <img class="" src="img/products/f1.jpg" id="mainImg" alt="">
 
                     <div class=" inline-flex gap-4 mt-4">
                         <div>
-                            <img src="img/products/f1.jpg" alt="">
+                            <img src="img/products/f1.jpg" class="smallImg" alt="">
                         </div>
                         <div>
-                            <img src="img/products/f2.jpg" alt="">
+                            <img src="img/products/f2.jpg" class="smallImg" alt="">
                         </div>
                         <div>
-                            <img src="img/products/f3.jpg" alt="">
+                            <img src="img/products/f3.jpg" class="smallImg" alt="">
                         </div>
                         <div>
-                            <img src="img/products/f4.jpg" alt="">
+                            <img src="img/products/f4.jpg" class="smallImg" alt="">
                         </div>
                     </div>
                 </div>
@@ -187,6 +187,24 @@
 
 
         <!-- footer section end -->
+
+        <script>
+            let mainImg = document.getElementById('mainImg')
+            let smallImg = document.getElementsByClassName('smallImg')
+
+            smallImg[0].onclick=()=>{
+                mainImg.src = smallImg[0].src
+            }
+            smallImg[1].onclick=()=>{
+                mainImg.src = smallImg[1].src
+            }
+            smallImg[2].onclick=()=>{
+                mainImg.src = smallImg[2].src
+            }
+            smallImg[3].onclick=()=>{
+                mainImg.src = smallImg[3].src
+            }
+        </script>
         
 
         <script src="script.js"></script>
